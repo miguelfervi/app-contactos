@@ -2,16 +2,17 @@
 import App from '../components/App';
 import Detalle from '../components/Detalle';
 
-const routes = [{
+const routes = [
+  {
     exact: true,
-    path: "/",
-    component: App
+    path: '/',
+    component: App,
   },
   {
     exact: false,
-    path: "/detail/:id",
-    component: Detalle
-  }
+    path: '/detail/:id',
+    component: Detalle,
+  },
 ];
 
 export default routes;
